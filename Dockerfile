@@ -1,4 +1,4 @@
-from jupyter/scipy-notebook:python-3.11.4
+FROM jupyter/scipy-notebook:python-3.11.4
 
 # Must reset to root user to install new things
 USER root
