@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: python3jupyter
     volumes:
-      - /home/adelie/jupyter_notebook/notebooks:/home/jovyan
+      - ./notebooks:/home/jovyan
     ports:
       - 8888:8888
       - 9000:9000
