@@ -28,8 +28,12 @@ A containerized [Jupyter Notebook](https://jupyter.org/) instance for safe [Pyth
 1. Add Linux requirements to [./Dockerfile](./Dockerfile)
     - Add package names to the end of line 10 to install with apt-get
 1. Add Python3 requirements to new lines in [./requirements.txt](./requirements.txt)
+
+### Startup
 1. `docker-compose up --build -d` (VSCode: Right-click, Compose Up)
 1. `docker logs jupyter` (VSCode: Right-click, View Logs)
 1. Connect to the URL provided in the output i.e. `http://127.0.0.1:8888/lab?token=HASHVALUEHERE`
 1. Use & Profit
+
+### Shutdown
 1. When complete `docker-compose down` (VSCode: Right-click, Compose Down)
