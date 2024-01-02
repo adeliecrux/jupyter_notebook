@@ -13,6 +13,7 @@ A containerized [Jupyter Notebook](https://jupyter.org/) instance for safe [Pyth
 | [./docker-compose.yml](./docker-compose.yml) | [Docker Compose](https://docs.docker.com/compose/) orchestrator manifest in [YAML](https://yaml.org/)  |
 | [./Dockerfile](./Dockerfile) | Docker Image Manifest in [Dockerfile](https://docs.docker.com/engine/reference/builder/) |
 | [./jupter_notebook.code-workspace](./jupter_notebook.code-workspace) | [VSCode](https://code.visualstudio.com/) [workspace](https://code.visualstudio.com/docs/editor/workspaces) manifest in [JSON](https://www.json.org/) |
+| [./LICENSE](./LICENSE) | [MIT Software License](https://choosealicense.com/licenses/mit/#)  |
 | [./README.md](./README.md) | This document. Basic guidance in [Markdown](https://www.markdownguide.org/) |
 | [./requirements.txt](./requirements.txt) | Python3 requirements to install with [PIP](https://pip.pypa.io/en/stable/) from [PyPi](https://pypi.org/) |
 
